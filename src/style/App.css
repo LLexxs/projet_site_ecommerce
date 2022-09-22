@@ -27,6 +27,8 @@
   color: white;
   list-style-type: none;
   text-decoration: none;
+  min-height: 10vh;
+  margin-top: 0;
 }
 
 .App-link {
