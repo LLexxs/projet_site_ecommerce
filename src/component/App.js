@@ -4,6 +4,7 @@ import Accueil from './Accueil';
 import Produits from './Produits';
 import Contact from './Contact';
 import '../style/App.css';
+import Footer from './Footer';
 
 class App extends Component {
     render() {
@@ -26,6 +27,7 @@ class App extends Component {
                         <Route exact path='/produits' element={< Produits />}></Route>
                         <Route exact path='/contact' element={< Contact />}></Route>
                     </Routes>
+                    <Footer />
                 </div>
             </Router>
         );
