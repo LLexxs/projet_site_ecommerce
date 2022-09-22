@@ -1,4 +1,5 @@
 import "../style/Footer.css"
+
 function Footer(){
   const numero = "06.06.06.06.07";
   const site = "https://lolskinmoulafacile.fr";

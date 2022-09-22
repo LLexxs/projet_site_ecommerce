@@ -1,3 +1,4 @@
+import React from 'react';
 import '../style/Accueil.css';
 
 function Accueil() {
