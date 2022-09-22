@@ -13,7 +13,7 @@ class App extends Component {
                 <div className="App">
                     <ul className="App-header">
                         <li>
-                            <Link to="/accueil">Accueil</Link>
+                            <Link to="/">Accueil</Link>
                         </li>
                         <li>
                             <Link to="/produits">Produits</Link>
@@ -23,7 +23,7 @@ class App extends Component {
                         </li>
                     </ul>
                     <Routes>
-                        <Route exact path='/accueil' element={< Accueil />}></Route>
+                        <Route exact path='/' element={< Accueil />}></Route>
                         <Route exact path='/produits' element={< Produits />}></Route>
                         <Route exact path='/contact' element={< Contact />}></Route>
                     </Routes>

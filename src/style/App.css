@@ -17,8 +17,8 @@
   background-color: #538397;
   min-height: 10vh;
   display: grid;
-  grid-template-columns: 1fr 2fr 3fr;
-  grid-column-gap: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 500px;
   grid-row-gap: 30px;
   text-align: center;
   flex-direction: column;
@@ -26,6 +26,7 @@
   justify-content: center;
   font-size: calc(10px + 1vmin);
   color: white;
+  grid-row-start: 10px;
 }
 
 .App-link {
