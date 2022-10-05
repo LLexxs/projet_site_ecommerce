@@ -1,0 +1,40 @@
+img {
+border:5px solid black;
+position: center;
+max-width: 100%;
+height: auto;
+display: block;
+}
+@media screen and (max-width: 700px) {
+  .grille {
+    display: inline-block;
+    grid-template-columns: 1fr 2fr;
+    border: 2px solid black;
+    border-style: solid;
+    border-width: 3px;
+    padding-bottom: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: gold;
+    font-size: 100%;
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+    text-align: center;
+  }
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Alata&family=Cinzel:wght@500&family=Permanent+Marker&display=swap');
+  .header {
+    /*font-family: "Copperplate", fantasy;*/
+    font-family: 'Permanent Marker', cursive;
+    font-size: 150%;
+    text-align: center;
+    text-shadow: 1px 1px 2px gold;
+    border-style: solid;
+    border-width: 3px;
+    padding-bottom: 10px;
+    background-color: gold;
+    background: rgba(255,215,0,0.5);
+  }
+  .bas{
+    margin-bottom: 200px;
+  }
