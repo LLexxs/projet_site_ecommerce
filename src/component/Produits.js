@@ -1,20 +1,22 @@
 import React from 'react';
+import img from '../img/saber_leona.jpg';
 
 function Produits() {
-  const Produits = [{img: '<a href="./img/amogus_amumu.webp">',
-                    nom: 'Amumu Among Us',
-                    commentaire: "N'avez-vous jamais rêvé de jouer à LoL ET à Among Us en même temps ?"
-                    }]
+    const Produits = [{
+        img: img,
+        nom: 'Amumu Among Us',
+        commentaire: "N'avez-vous jamais rêvé de jouer à LoL ET à Among Us en même temps ?"
+    }]
     return (
-      <div>
-      {Produits.map((produit) => (
-        <li>
-          {produit.img}<br/>
-          {produit.nom}<br/>
-          {produit.commentaire}<br/>
-        </li>
-      ))}
-      </div>
+        <ul>
+            {Produits.map((produit) => (
+                <li>
+                    <div><img src={produit.img} alt="lol"/></div>
+                    <div>{produit.nom}</div>
+                    <div>{produit.commentaire}</div>
+                </li>
+            ))}
+        </ul>
     )
 }
 
