@@ -25,7 +25,7 @@ class App extends Component {
                     </ul>
                     <Routes>
                         <Route exact path='/' element={< Accueil />}></Route>
-                        <Route exact path='/produits' element={< Produits />}></Route>
+                        <Route exact path='/produits/:id' element={< Produits />}></Route>
                         <Route exact path='/contact' element={< Contact />}></Route>
                     </Routes>
                     <Footer/>

@@ -2,7 +2,8 @@ img {
 border:5px solid black;
 position: center;
 max-width: 100%;
-height: auto;
+  width: 200px;
+height: 200px;
 display: block;
 }
 @media screen and (max-width: 700px) {
