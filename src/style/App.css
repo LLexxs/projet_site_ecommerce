@@ -3,6 +3,11 @@
   padding-bottom: 10px;
 }
 
+
+.main{
+  min-height: 600px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

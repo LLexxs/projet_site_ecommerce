@@ -8,7 +8,7 @@ function Produits() {
         commentaire: "N'avez-vous jamais rêvé de jouer à LoL ET à Among Us en même temps ?"
     }]
     return (
-        <ul>
+        <div className='main'><ul>
             {Produits.map((produit) => (
                 <li>
                     <div><img src={produit.img} alt="lol"/></div>
@@ -16,7 +16,7 @@ function Produits() {
                     <div>{produit.commentaire}</div>
                 </li>
             ))}
-        </ul>
+        </ul></div>
     )
 }
 

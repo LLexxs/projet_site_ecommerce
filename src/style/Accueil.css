@@ -5,6 +5,11 @@ svg {
     margin-top: -250px;
     margin-left: -400px;
 }
+
+.main {
+    min-height: 600px;
+}
+
 .message-box {
     height: 200px;
     width: 440px;

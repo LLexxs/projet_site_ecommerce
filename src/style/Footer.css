@@ -1,8 +1,8 @@
 footer{
-    position: fixed;
-    bottom: 0;
+    position: absolute;
     width: 100%;
     font-size: 70%;
+    padding-top: 0;
 }
 .siteFooter{
     color: white;
