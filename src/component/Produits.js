@@ -1,11 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import '../style/Produits.css';
-import img from '../img/saber_leona.jpg';
-import img2 from '../img/amogus_amumu.webp';
-import img3 from '../img/arclight_kindred.jpg';
-import img4 from '../img/minecraft_yorick.webp';
+import {Col} from "react-bootstrap";
+import {Row} from "react-bootstrap";
+import {Container} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
+function Produits(props) {
+
+<<<<<<< HEAD
 
 function Produits() {
     const Produits = [{
@@ -37,6 +40,26 @@ function Produits() {
                 </li>
             ))}
         </ul></div>
+=======
+    return (
+        <div className='main'>
+            <Container>
+                <Col md={12}>
+                    <Row>
+                        {props.prod.map((produit) => (
+                            <Col md={6}>
+                                <div>
+                                    <Link to={"/Detail/" + produit.id}><img src={produit.img} alt="lol"/></Link>
+                                </div>
+                                <div>{produit.nom}</div>
+                                <div>{produit.commentaire}</div>
+                            </Col>
+                        ))}
+                    </Row>
+                </Col>
+            </Container>
+        </div>
+>>>>>>> 663ca0c2f8a459ea2099c101404dc202c4ce8e5a
     )
 }
 
