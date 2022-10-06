@@ -5,7 +5,9 @@ function Detail (props) {
     var produits = props.prod[id - 1];
 
     return (
-        <div> {produits.nom} <br/> {}</div>
+        <div>
+            {produits.nom}
+        </div>
 
     )
 }

@@ -14,7 +14,9 @@ function Produits(props) {
                     <Row>
                         {props.prod.map((produit) => (
                             <Col md={6}>
-                                <div><Link to={"/Detail/" + produit.id}><img src={produit.img} alt="lol"/></Link></div>
+                                <div>
+                                    <Link to={"/Detail/" + produit.id}><img src={produit.img} alt="lol"/></Link>
+                                </div>
                                 <div>{produit.nom}</div>
                                 <div>{produit.commentaire}</div>
                             </Col>
