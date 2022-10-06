@@ -10,7 +10,7 @@ function Footer(props) {
             </h4>
             <ul className="liste">
                 <li> numéro : {numero}</li>
-                <li> site officiel: <a href={site}>Skins LoL</a></li>
+                <li> site officiel: <a href={site} target='_blank' rel="noreferrer">Skins LoL</a></li>
                 <li> All your rights are reserves to us</li>
             </ul>
         </div>

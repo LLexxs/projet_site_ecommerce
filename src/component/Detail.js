@@ -1,9 +1,12 @@
+import {useParams} from "react-router-dom";
+
 function Detail (props) {
-    const nom = props.nom
-    const commentaire = props.commentaire
+    const {id} = useParams();
+    var produits = props.prod[id - 1];
 
     return (
-        <div> {nom} <br/> {commentaire}</div>
+        <div> {produits.nom} <br/> {}</div>
+
     )
 }
 
