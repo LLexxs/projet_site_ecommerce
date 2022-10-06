@@ -5,7 +5,7 @@ function Detail (props) {
     var produits = props.prod[id - 1];
 
     return (
-        <div>
+        <div className='main'>
             {produits.nom}
         </div>
 
