@@ -1,8 +1,9 @@
 import {useParams} from "react-router-dom";
+import React from "react";
 
 function Detail (props) {
     const {id} = useParams();
-    var produits = props.prod[id - 1];
+    let produits = props.prod[id - 1];
 
     return (
         <div className='main'>
